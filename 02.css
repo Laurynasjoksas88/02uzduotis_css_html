@@ -1,0 +1,50 @@
+h2 {
+    color: green;
+}
+
+h1 {
+    color: green;
+}
+
+mark {
+    background-color: white;
+    color: #FFE8A7;
+}
+
+li {
+    color: red;
+    border: 1;
+    list-style-type: circle;
+}
+
+li span {
+    color: blue;
+    text-decoration: underline;
+}
+
+table {
+   border:outset;
+   border-top:solid;
+   border-left:solid;
+    
+}
+
+.location {
+    color:blue;
+}
+
+.topic {
+    color:purple;
+    
+}
+
+label {
+    color:#FF5938;
+    font-weight: bold; 
+}
+
+legend {
+    font-weight: bold;
+    color:#FF5938;
+}
+

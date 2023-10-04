@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssandhtml</title>
+    <link rel="stylesheet" href="02.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+    </head>
+
+    <body>
+        <h1>About</h1>
+
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+            Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+            source. <mark>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</mark>
+            (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+            section 1.10.32.</p>
+
+        <h2>Our location</h2>
+        <p><strong>USA:</strong></p>
+        <ul>
+            <li><span>York</span></li>
+            <li><span>Columbus</span></li>
+            <li><span>Austin</span></li>
+            <li><span>Philadelphia</span></li>
+        </ul>
+
+        <p><strong>World:</strong></p>
+        <ul>
+            <li><span>Ottawa</span></li>
+            <li><span>Sydney</span></li>
+        </ul>
+
+        <h2>Upcoming Classes</h2>
+
+        <table border="1">
+            <tr>
+                <th>Location</th>
+                <th>Topic</th>
+            </tr>
+            <div>
+                <tr>
+                    <td class="location">New York</td>
+                    <td class="topic">JavaScript & jQuery</td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td class="location">San Francisco</td>
+                    <td class="topic">HTML and CSS</td>
+                </tr>
+            </div>
+
+        </table>
+
+        <h2>Sign Up!</h2>
+        <form action="your_server_script.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location"><br><br>
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br><br>
+            </fieldset>
+
+            <label for="experience">Experience:</label><br>
+            <textarea id="experience" name="experience" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Sign Up">
+        </form>
+
+    </body>
+
+    </html>
+</body>
+
+</html>
